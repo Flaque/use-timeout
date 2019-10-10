@@ -1,0 +1,36 @@
+{
+  "name": "use-timeout",
+  "description": "",
+  "version": "0.0.0",
+  "author": "flaque",
+  "bugs": "https://github.com/flaque/use-timeout/issues",
+  "dependencies": {
+    "react": "^16.10.2",
+    "tslib": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "10.5.2",
+    "@types/react": "^16.9.5",
+    "ts-node": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "/lib"
+  ],
+  "homepage": "https://github.com/flaque/use-timeout",
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flaque/use-timeout.git"
+  },
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  },
+  "types": "lib/index.d.ts"
+}
