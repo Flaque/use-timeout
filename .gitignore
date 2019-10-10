@@ -96,5 +96,6 @@ public/
 .dynamodb/
 
 .yo-rc.json
+dist/
 
 # End of https://www.gitignore.io/api/node
